@@ -1,0 +1,28 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import CodeSnippet from './components/CodeSnippet'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
+function App() {
+  return (
+    <div className="bg-gray-950 text-white min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <Skills />
+        <Projects />
+        <Experience />
+        <CodeSnippet />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
+export default App
+
